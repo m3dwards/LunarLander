@@ -13,7 +13,7 @@ var landerWidth = 74;
 var stopGame;
 var gameLoop;
 var maxSpeed = 1;
-var startFuel = 60;
+var startFuel = 100;
 var snd = new Audio("thruster.mp3");
 
 
