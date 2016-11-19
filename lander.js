@@ -24,6 +24,7 @@ $(function(){
 
 $(document).keydown(onKeyDown);
 $(document).keyup(onKeyUp);
+$(document).bind('touchstart', function(event){upDown = true;});
 
 function start() {
 	g = $('#MainCanvas')[0].getContext("2d");
