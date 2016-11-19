@@ -26,7 +26,7 @@ $(document).keydown(onKeyDown);
 $(document).keyup(onKeyUp);
 $(document).keydown(onKeyDown);
 $(document).keyup(onKeyUp);
-$(document).bind('touchstart', function(event){alert('hello'); upDown = true;});
+$(document).bind('touchstart', function(event){upDown = true;});
 $(document).bind('touchend', function(event){upDown = false;});
 
 function start() {
